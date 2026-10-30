@@ -138,5 +138,22 @@ body {
   background-image: url(../assets/images/icons/heart.svg);
 }
 .cart-link {
+  position: relative;
   background-image: url(../assets/images/icons/shopping-bag.svg);
+}
+.cart-count {
+  position: absolute;
+  top: -4px;
+  right: -7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #696f46;
+  color: #ffffff;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
 }
