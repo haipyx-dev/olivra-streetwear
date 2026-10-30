@@ -170,3 +170,14 @@ body {
   max-width: 650px;
   color: #ffffff;
 }
+.hero-title {
+  font-size: 76px;
+  font-weight: 900;
+  line-height: 0.85;
+  letter-spacing: -3px;
+  margin: 24px 0;
+}
+
+.hero-title span {
+  color: #a5ad73;
+}
