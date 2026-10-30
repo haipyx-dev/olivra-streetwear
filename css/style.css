@@ -94,4 +94,19 @@ body {
   font-size: 24px;
   font-weight: 600;
   letter-spacing: 3px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+.logo::before {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../assets/images/icons/olivra-symbol.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
 }
