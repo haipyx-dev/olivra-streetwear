@@ -175,9 +175,21 @@ body {
   font-weight: 900;
   line-height: 0.85;
   letter-spacing: -3px;
-  margin: 24px 0;
+  margin: 5px 0 5px 0;
 }
-
 .hero-title span {
   color: #a5ad73;
+}
+.hero-label {
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #a5ad73;
+  margin: 0;
+}
+.hero-description {
+  color: #e2e2e2;
+  max-width: 290px;
+  font-size: 14px;
+  line-height: 1.3;
 }
