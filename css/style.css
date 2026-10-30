@@ -157,3 +157,9 @@ body {
   font-weight: 700;
   line-height: 1;
 }
+.hero {
+  position: relative;
+  min-height: 600px;
+  background-color: #111210;
+  overflow: hidden;
+}
