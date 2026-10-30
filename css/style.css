@@ -1,3 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.top-bar {
+  background-color: #696f46;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  position: relative;
+}
+.top-bar span {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.top-bar span:first-child::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("../assets/images/icons/truck.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.top-bar span:nth-child(2)::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("../assets/images/icons/package-check.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.top-bar span:not(:first-child)::after {
+  content: "";
+  position: absolute;
+  left: -14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 14px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
 .top-bar-close {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
   background-image: url(../assets/images/icons/x.svg);
+  border: none;
+  cursor: pointer;
 }
