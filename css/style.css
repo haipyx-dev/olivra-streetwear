@@ -198,8 +198,13 @@ body {
   display: flex;
   align-items: center;
   gap: 25px;
+  margin-top: 14px;
 }
 .hero-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   border: 1px solid #a5ad73;
   color: #111210;
   background-color: #a5ad73;
@@ -211,13 +216,17 @@ body {
 }
 .hero-btn-arrow {
   display: inline-block;
-  width: 14px;
-  height: 14px;
+  width: 15px;
+  height: 15px;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(../assets/images/icons/arrow-right.svg);
 }
 .hero-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   border: 1px solid #ffffff;
   color: #ffffff;
   background-color: transparent;
@@ -226,12 +235,31 @@ body {
   letter-spacing: -0.5px;
   text-decoration: none;
   padding: 10px 25px;
+  cursor: pointer;
 }
 .hero-btn-play {
   display: inline-block;
-  width: 14px;
-  height: 14px;
+  width: 30px;
+  height: 30px;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(../assets/images/icons/circle-play.svg);
+}
+.hero-btn-arrow,
+.hero-btn-play {
+  flex-shrink: 0;
+  background-position: center;
+}
+.hero-btn,
+.hero-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 42px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  font-family: inherit;
+  line-height: 1;
+  white-space: nowrap;
 }
