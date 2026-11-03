@@ -360,3 +360,55 @@ body {
   background-repeat: no-repeat;
   background-image: url(../assets/images/icons/circle-arrow-right.svg);
 }
+.categories {
+  padding: 60px 60px 80px;
+  background-color: #f5f5f0;
+  box-sizing: border-box;
+}
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+.categories-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.categories-title-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.categories-title-group h2,
+.categories-title-group p {
+  margin: 0;
+}
+.categories-title-group h2 {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  line-height: 0.85;
+  color: #111210;
+  max-width: 230px;
+}
+.categories-title-group p {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #626b42;
+}
+.categories-heading a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #111210;
+  padding: 10px 20px;
+}
