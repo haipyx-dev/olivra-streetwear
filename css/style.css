@@ -267,6 +267,17 @@ body {
   line-height: 1;
   white-space: nowrap;
 }
+.hero-customers {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 20px;
+}
+.customer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
 .hero-slider {
   position: absolute;
   right: 60px;
