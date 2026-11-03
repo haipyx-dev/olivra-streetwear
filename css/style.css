@@ -278,6 +278,33 @@ body {
   flex-direction: column;
   gap: 2px;
 }
+.customer-images {
+  display: flex;
+  align-items: center;
+}
+.customer-images img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #b8b8b8;
+}
+.customer-images img:not(:first-child) {
+  margin-left: -10px;
+}
+.customer-count {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1;
+}
+.customer-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: #b8b8b8;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
 .hero-slider {
   position: absolute;
   right: 60px;
